@@ -1,0 +1,229 @@
+/* header {
+    display: flex;
+} */
+body {
+    /* position: relative; */
+    
+    background-color: hsl(36, 19%, 95%);
+    margin: 0 0;
+    /* padding: 0; */
+    
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.øverst {
+    background-color: white;
+
+    /* display: block; */
+    /* width: 100%; */
+    
+    /* margin: 0 0;
+    padding: 0; */
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   /*  width: 100%; */
+}
+
+header {
+    
+    
+
+    /* align-items: center; */
+    
+    
+    /* display: inline; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    
+}
+header button{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+    top: 2px;
+    align-self: center;
+
+    /* float: left; */
+    border-radius: 15px;
+    border-color:  grey;
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    /* font-size: 1rem; */
+    /* display: flex; */
+    /* justify-content: flex-start;  */
+    position: absolute;
+    /* margin: auto 0; */
+    /* left: 1rem; */
+    
+    /* margin-right: auto; */
+    /* margin-left: 0; */
+}
+/* header p {
+    text-align: center;
+} */
+header img{
+    /* flex-grow: 2; */
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    /* align-self: center; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    /* text-align: center; */
+    /* flex-grow: 2; */
+    /* display: block; */
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+}
+.sticky {
+    /* overflow: clip; */
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0px; */
+    /* padding: 1; */
+}
+nav {
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    /* width:100%;  */
+    /* width: 100%; */
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+nav ul {
+    /* 
+    width: 100%;
+    overflow: hidden; */
+    
+
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border-style: solid;
+    border-width: 2px 0;
+    border-color: gray; */
+    align-items: center;
+}
+nav li {
+    margin: 0 1rem;
+}
+nav img {
+    
+}
+nav input#search {
+    background-image: url("../img/zoom.png");
+    background-size: contain;
+    /* width: 50px; */
+    font-size: 1rem;
+    /* padding: 1rem; */
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    border-radius: 15px;
+    background-color: hsl(36, 19%, 95%);
+    
+}
+.basket {
+    background-image: url("../img/basket.png");
+    background-size: contain;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:active{
+    color: blue;
+}
+main {
+    
+    
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+main div {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0px; */
+    /* padding: 1rem; */
+    text-align: center ;
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: white;
+}
+main img {
+    background-color: hsl(0, 0%, 91%);
+    padding: 1rem 4rem;
+}
+main input {
+    margin-left: 1rem;
+    /* margin-right: 0;
+    padding-right: 0; */
+    width: 1rem;
+    /* flex-grow:2; */
+    border: none;
+    /* margin-bottom: 10px; */
+}
+main p:nth-child(3), main button{
+    display: inline;    
+    /* flex-direction: column; */
+}
+main form {
+    margin-left: 1rem;
+    display:flex;
+    flex-direction:row;
+    display: inline-block;
+    
+    
+
+    border: 2px solid hsl(166, 92%, 26%);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    /* padding: 0; 
+    margin: 0; */
+    /* padding-right:  ; */
+}
+main button {
+    background-color: hsl(166, 92%, 26%);
+    color: white;
+    border: none;
+    /* border-radius: ; */
+    /* margin-left: 0;
+    padding-left: 0; */
+    padding: 0.25rem 2rem;
+    /* margin-right: 5px; */
+    /* border-radius: 15px; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer div{
+    /* margin: 0 4rem; */
+}
+footer a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
